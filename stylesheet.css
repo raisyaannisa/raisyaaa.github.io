@@ -22,8 +22,8 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  padding: 200px 0 200 m px 0;
+  background-image: url(https://github.com/raisyaannisa/raisyaaa.github.io/blob/main/546004c0-67b8-44b0-9d35-3a5cab02a412.jpg?raw=tru);
   background-size: cover;
   color: white;
   text-align: center;
@@ -59,8 +59,8 @@ a {
   margin-right: 10px;
 }
 
-.twitter {
-  background-color: #55acee;
+.instagram {
+  background-color: #696969;
 }
 
 .btn {
@@ -89,9 +89,11 @@ header {
   z-index: 10;
 }
 
-.logo {
+.logo2 {
   width: 124px;
   margin-top: 20px;
+  color: black;
+  font-size: 20;
 }
 
 .header-left {
@@ -159,11 +161,11 @@ header {
 }
 
 .text-contents {
-  width: 80%;
+  text-align: left;
   display: inline-block;
   margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+  font-size: 20px;
+  color: #black;
 }
 
 .heading h3 {
@@ -201,4 +203,50 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+}
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+  .lesson {
+   width: 50%;
+   margin-bottom: 50px;
+   }
+}
+@media all and (max-width: 670px) {
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .top-wrapper h1 {            
+    font-size: 24px;            
+    line-height: 36px;            
+  }            
+  .top-wrapper p {            
+    font-size: 14px;            
+    line-height: 20px;            
+  }
+  .lesson {
+    width: 100%;
+  }
+  footer {
+    text-align: right;
+  }
 }
